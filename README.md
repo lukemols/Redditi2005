@@ -24,4 +24,9 @@ This application uses [SQLite-net by Praeclarum](https://github.com/praeclarum/s
 No personal data is included in this folder. You need to use your own files.
 
 ## Requirements
-This application is build with Visual Studio CE 2022 and .Net Framework.
+This application is build with Visual Studio CE 2022 and [.NET Framework 6.0](https://dotnet.microsoft.com/it-it/download/dotnet/6.0).
+
+You can download the application without needing to compile it under [Releases tab](https://github.com/lukemols/Redditi2005/releases).
+
+## Output Database
+Output database will be found in a folder called "output" inside the root application folder.
