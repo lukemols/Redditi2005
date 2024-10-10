@@ -10,8 +10,6 @@ namespace Redditi2005.Scraper
 {
     internal class Scraper
     {
-        static int idCount = 0;
-
         public static void ScrapeFile(FileInfo fileInfo, out List<Record> records)
         {
             records = new List<Record>();
@@ -54,7 +52,6 @@ namespace Redditi2005.Scraper
                                  * SURNAME NAME    1943-05-05                                  0           0             0           0    CUD
                                  */
                                 Record record = new Record();
-                                //record.Id = ++idCount;
                                 record.CityCode = cityName;
                                 record.Name = splitted[0].Trim(); // always first two datas
                                 record.Birthday = splitted[1].Trim();
